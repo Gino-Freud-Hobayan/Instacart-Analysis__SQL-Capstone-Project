@@ -1,6 +1,6 @@
 # SQL-Bootcamp
 
-<br><br>
+<br>
 
 ```sql
 
