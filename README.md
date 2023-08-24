@@ -2,6 +2,11 @@
 
 <br>
 
+Assignment #2
+
+https://console.cloud.google.com/bigquery?sq=132225947884:fdff4db2ae6944439e12fc27f0a9bf45
+
+
 ```sql
 
 
