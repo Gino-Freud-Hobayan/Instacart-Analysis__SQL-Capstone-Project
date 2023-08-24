@@ -1,11 +1,17 @@
 
-## Assignment #2
-## Ad-Hoc Analysis on covid-19_italy
+# Assignment #2
+
+### Ad-Hoc Analysis on covid-19_italy
+
+
+Google BigQuery link:
+
+https://console.cloud.google.com/bigquery?sq=132225947884:fdff4db2ae6944439e12fc27f0a9bf45
+
+
 
 
 ```sql
-
-
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -546,8 +552,6 @@ ANSWER:
 
 
 
-
-
 -- 10. WHAT are the top 5 provinces with the most confirmed cases?
 
 SELECT
@@ -572,8 +576,6 @@ ANSWER:
 5.) Padova        - 540,031
 
 */
-
-
 
 
 
