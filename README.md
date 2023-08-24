@@ -1,8 +1,10 @@
 # SQL-Bootcamp
 
-<br>
+<br><br>
 
 ```sql
+
+
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -102,6 +104,8 @@ total confirmed cases: 663,275
 -- 2. In which province is the difference between [the number of confirmed cases] and [the number of recovered patients] the greatest?
 
 -- province TABLE does not have "recovered" column, might have to use JOIN ON national_trends
+-- Is there a solution without using JOIN on the 2 tables?
+
 
 SELECT
   province.province_name,
@@ -119,6 +123,7 @@ LIMIT 1
 
 ANSWER:
 
+
 */
 
 
@@ -135,12 +140,12 @@ ANSWER:
 
 -- using "recovered" column for this specific query. Although not recommended when measuring vaccine effectivity, since a person can recover without a vaccine.
 SELECT
-  DISTINCT(region_name) AS regions_with_the_most_recovered,
-  MAX(recovered) AS count_of_total_recovered
+  DISTINCT(region.region_name) AS regions_with_the_most_recovered,
+  MAX(region.recovered) AS count_of_total_recovered
 FROM
   `bigquery-public-data.covid19_italy.data_by_region` AS region
 GROUP BY
-  region_name
+  region.region_name
 ORDER BY
   count_of_total_recovered DESC
 
@@ -154,6 +159,7 @@ ANSWER:
 5.)Emilia-Romagna   - 2,137,865
 6.)Sicilia          - 1,812,771
 7.)Piemonte         - 1,696,057
+8.)Puglia           - 1,632,818
 
 */
 
@@ -451,8 +457,6 @@ ANSWER:
 
 
 
-
-
 ```
-
+<br><br>
 
