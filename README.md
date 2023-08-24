@@ -4,11 +4,12 @@
 
 Assignment #2
 
+Google BigQuery link:
+
 https://console.cloud.google.com/bigquery?sq=132225947884:fdff4db2ae6944439e12fc27f0a9bf45
 
 
 ```sql
-
 
 
 --------------------------------------------------------------------------------
@@ -78,8 +79,6 @@ max_confirmed_cases: 4,170,894
 
 
 
-
-
 /*
 OTHER (INCORRECT) ATTEMPT:
 -- WHAT'S WRONG WITH THIS? I ordered by region name, thats why ABruzzo popped up first as well
@@ -106,30 +105,148 @@ total confirmed cases: 663,275
 
 
 
+
+
+
+
+
+
+
+
+
 -- 2. In which province is the difference between [the number of confirmed cases] and [the number of recovered patients] the greatest?
+
+-- Using region TABLE
+SELECT
+  region.region_name,
+  region.total_confirmed_cases AS num_of_confirmed_cases,
+  region.recovered AS num_of_recovered_patients,
+
+  region.total_confirmed_cases - region.recovered AS difference
+
+FROM
+  `bigquery-public-data.covid19_italy.data_by_region` AS region
+ORDER BY
+  difference DESC
+
+
+/*
+
+ANSWER: Lombardia
+
+difference                 - 613,919
+
+num_of_confirmed_cases     - 1,681,066
+num_of_recovered_patients  - 1,067,147
+
+
+*/
+
+
+
+
+
+
+/*
+OTHER INCORRECT ATTEMPTS:
+
+SELECT
+  region.region_name,
+  MAX(region.total_confirmed_cases) AS num_of_confirmed_cases,
+  MAX(region.recovered) AS num_of_recovered_patients,
+
+  region.total_confirmed_cases - region.recovered AS difference
+
+FROM
+  `bigquery-public-data.covid19_italy.data_by_region` AS region
+GROUP BY
+  region.region_name,
+  num_of_confirmed_cases,
+  num_of_recovered_patients
+
+
+
+ORDER BY
+  difference DESC
+
 
 -- province TABLE does not have "recovered" column, might have to use JOIN ON national_trends
 -- Is there a solution without using JOIN on the 2 tables?
 
-
+-- THEY HAVE THE EXACT SAME NUMBERS AND DIFFERENCE? something's wrong
 SELECT
-  province.province_name,
-  province.confirmed_cases - province.recovered AS difference
+  DISTINCT(province.province_name) AS distinct_province_name,
+  MAX(nat_trends.total_confirmed_cases) AS num_of_confirmed_cases,
+  MAX(nat_trends.recovered) AS num_of_recovered_patients,
+
+  MAX(nat_trends.total_confirmed_cases) - MAX(nat_trends.recovered) AS the_difference
+
 FROM
   `bigquery-public-data.covid19_italy.data_by_province` AS province
+JOIN
+  `bigquery-public-data.covid19_italy.national_trends` AS nat_trends
+ON
+  province.date = nat_trends.date
+GROUP BY
+  province.province_name
+
+ORDER BY
+  the_difference DESC
+
+LIMIT 1
+
+
+-- THEY HAVE THE SAME DIFFERENCE? something's wrong
+SELECT
+  province.province_name,
+  MAX(nat_trends.total_confirmed_cases) AS num_of_confirmed_cases,
+  MAX(nat_trends.recovered) AS num_of_recovered_patients,
+
+  MAX(nat_trends.total_confirmed_cases) - MAX(nat_trends.recovered) AS the_difference
+
+FROM
+  `bigquery-public-data.covid19_italy.data_by_province` AS province
+JOIN
+  `bigquery-public-data.covid19_italy.national_trends` AS nat_trends
+ON
+  province.date = nat_trends.date
+
+GROUP BY
+  province.province_name
+
+ORDER BY
+  the_difference DESC
+
+LIMIT 1
+
+
+-- province TABLE does not have "recovered" column, might have to use JOIN ON national_trends
+-- Is there a solution without using JOIN on the 2 tables?
+SELECT
+  DISTINCT(province.province_name) AS distinct_province_name,
+  nat_trends.total_confirmed_cases AS num_of_confirmed_cases,
+  nat_trends.recovered AS num_of_recovered_patients,
+  
+  nat_trends.total_confirmed_cases - nat_trends.recovered AS difference
+
+FROM
+  `bigquery-public-data.covid19_italy.data_by_province` AS province
+JOIN
+  `bigquery-public-data.covid19_italy.national_trends` AS nat_trends
+ON
+  province.date = nat_trends.date
+
+
 ORDER BY
   difference DESC
 
 LIMIT 1
 
-
-
-/*
-
-ANSWER:
-
-
 */
+
+
+
+
 
 
 
@@ -209,6 +326,8 @@ deaths:
 
 
 
+
+
 -- 4. WHAT is the total number of confirmed cases in italy
 
 -- total_confirmed_cases column is Cumulative, we use MAX not SUM
@@ -256,7 +375,6 @@ total_num_of_deaths_in_italy: 191,167
 
 
 
-
 /*
 -- used this to figure out if it's cumulative.
 SELECT
@@ -267,6 +385,9 @@ FROM
 ORDER BY
   date
 */
+
+
+
 
 
 
@@ -307,6 +428,8 @@ num_of_confirmed_cases_in_italy: 25,929,238
 
 
 
+
+
 -- 7. WHAT is the ratio of [the number of deaths] to [the number of confirmed cases nationwide?]
 
 SELECT
@@ -317,8 +440,6 @@ SELECT
 FROM
   `bigquery-public-data.covid19_italy.national_trends` AS nat_trends
 
-
-
 /*
 
 ANSWER: RATIO: 0.00737
@@ -326,6 +447,8 @@ num_of_deaths: 191,167
 num_of_confirmed_cases_in_italy: 25,929,238
 
 */
+
+
 
 
 
@@ -345,7 +468,6 @@ SELECT
 FROM
   `bigquery-public-data.covid19_italy.national_trends` AS nat_trends
 
-
 /*
 
 ANSWER: RATIO: 0.001485
@@ -353,6 +475,7 @@ num_of_hospitalized_patients: 38,507
 num_of_confirmed_cases_in_italy: 25,929,238
 
 */
+
 
 
 
@@ -402,7 +525,6 @@ ORDER BY
 LIMIT
   5
 
-
 /*
 
 ANSWER:
@@ -413,7 +535,6 @@ ANSWER:
 5.) Padova        - 540,031
 
 */
-
 
 
 
@@ -446,7 +567,6 @@ ORDER BY
 LIMIT
   5
 
-
 /*
 
 ANSWER:
@@ -457,7 +577,6 @@ ANSWER:
 5.) Padova        - 540,031
 
 */
-
 
 
 
