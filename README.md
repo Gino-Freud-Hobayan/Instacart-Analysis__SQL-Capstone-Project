@@ -4,7 +4,7 @@
 
 <br>
 
-Repository of all the major lessons and projects I made during the SQL Bootcamp by Data Vanguard.
+Repository of all the major projects I made during the SQL Bootcamp by Data Vanguard.
 
 
 
