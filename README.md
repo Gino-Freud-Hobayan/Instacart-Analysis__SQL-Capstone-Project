@@ -6,7 +6,7 @@
 
 Repository of all the major projects I made during the SQL Bootcamp by Data Vanguard.
 
-<br>
+<br><br>
 
 1.) Aggregate functions and Ad Hoc Analysis practice on covid19_italy dataset
 
