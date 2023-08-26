@@ -24,3 +24,4 @@ Repository of all the major projects I made during the SQL Bootcamp by [Data Van
 
 
 
+![Thank you wordcloud1](https://github.com/Gino-Freud-Hobayan/SQL-Projects-from-Bootcamp/assets/117270964/a4aef423-bd7f-423a-a657-b40b8b25f000)
