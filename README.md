@@ -14,7 +14,7 @@ Repository of all the major projects I made during the SQL Bootcamp by [Data Van
 2.) Assignment # 2 - More Ad Hoc Analysis questions on covid19_italy dataset
 
 
-<br><br>
+<br><br><br>
 
 # Capstone Project:
 
