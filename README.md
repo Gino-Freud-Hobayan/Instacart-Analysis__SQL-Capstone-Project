@@ -18,7 +18,7 @@ Repository of all the major projects I made during the SQL Bootcamp by [Data Van
 
 # Capstone Project:
 
-### Analyzing the _____ Dataset using Google BigQuery
+### Analyzing the Instacart Dataset using Microsoft SQL
 
 <br><br>
 
