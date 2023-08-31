@@ -13,7 +13,7 @@ Repository of all the major projects I made during the SQL Bootcamp by [Data Van
 
 ### 2.) Assignment # 2 - More Ad Hoc Analysis on covid19_italy dataset
 
-### 3.) Capstone Project: Analyzing the Instacart Machine Learning dataset using Microsoft SQL
+### 3.) Capstone Project: Analyzing the Instacart dataset using Microsoft SQL
 
 
 <br><br><br><br>
