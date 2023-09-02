@@ -23,7 +23,12 @@ Repository of all the major projects I made during the SQL Bootcamp by [Data Van
 
 ### Analyzing the Instacart Dataset using Microsoft SQL
 
-### Link to the presentation: 
+<img width="487" alt="SQL capstone - title card" src="https://github.com/Gino-Freud-Hobayan/Instacart-Analysis__SQL-Capstone-Project/assets/117270964/7346041a-c1da-441c-b58a-5bf32c4b655e">
+
+
+
+
+### Link to the presentation: _____________
 
 <BR><BR><BR>
 
