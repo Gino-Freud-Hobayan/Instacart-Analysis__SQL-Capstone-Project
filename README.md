@@ -19,7 +19,7 @@ Repository of all the major projects I made during the 2 week SQL Bootcamp by [D
 <br><br><br><br>
 
 
-# Capstone Project: 👉 [Click here for the Slideshow/presentation](https://drive.google.com/file/d/1KERH9YY8d8F_qWiAXWs0UDoTBfE79ZhS/view?usp=sharing)
+## Capstone Project: 👉 [Click here for the Presentation](https://drive.google.com/file/d/1KERH9YY8d8F_qWiAXWs0UDoTBfE79ZhS/view?usp=sharing)
 
 
 <img width="487" alt="SQL capstone - title card" src="https://github.com/Gino-Freud-Hobayan/Instacart-Analysis__SQL-Capstone-Project/assets/117270964/7346041a-c1da-441c-b58a-5bf32c4b655e">
