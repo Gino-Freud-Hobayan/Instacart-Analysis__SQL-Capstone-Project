@@ -28,7 +28,7 @@ Repository of all the major projects I made during the 2 week SQL Bootcamp by [D
 
 
 
-### Link to the presentation: _____________
+### 👉 [Click here for the Slideshow/presentation](https://drive.google.com/file/d/1KERH9YY8d8F_qWiAXWs0UDoTBfE79ZhS/view?usp=sharing)
 
 <BR><BR><BR>
 
