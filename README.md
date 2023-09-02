@@ -3,7 +3,7 @@
 ### By: Gino Freud D. Hobayan
 
 
-Repository of all the major projects I made during the SQL Bootcamp by [Data Vanguard](https://datavanguard.ph/)
+Repository of all the major projects I made during the 2 week SQL Bootcamp by [Data Vanguard](https://datavanguard.ph/)
 
 (Scroll down for the Capstone Project)
 
