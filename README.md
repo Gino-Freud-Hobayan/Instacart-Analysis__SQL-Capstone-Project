@@ -2,6 +2,7 @@
 
 ### By: Gino Freud D. Hobayan
 
+<br>
 
 Repository of all the major projects I made during the 2 week SQL Bootcamp by [Data Vanguard](https://datavanguard.ph/)
 
