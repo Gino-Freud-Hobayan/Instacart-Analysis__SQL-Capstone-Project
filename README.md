@@ -32,9 +32,24 @@ Repository of all the major projects I made during the 2 week SQL Bootcamp by [D
 
 ### Source : https://www.kaggle.com/datasets/yasserh/instacart-online-grocery-basket-analysis-dataset?select=order_products__train.csv	
 
+<br> <br><br> 
+
+## (ERD) Entity Relationship Diagram 
+<img width="810" alt="ERD - Instacart DATABASE" src="https://github.com/Gino-Freud-Hobayan/Instacart-Analysis__SQL-Capstone-Project/assets/117270964/47f9b05d-ed9c-4fd0-a39c-dac380dbaae8">
+
+<br> <br>
+
+## Data Dictionary 
+<img width="874" alt="DATA DICTIONARY - Instacart DATABASE" src="https://github.com/Gino-Freud-Hobayan/Instacart-Analysis__SQL-Capstone-Project/assets/117270964/f91d005e-7388-49e2-b28b-c80f58b4f8a3">
+
+<br><br>
 
 
-<BR><BR><BR>
+<img width="500" alt="image" src="https://github.com/Gino-Freud-Hobayan/Instacart-Analysis__SQL-Capstone-Project/assets/117270964/9642578d-c5fb-49a3-a9c0-b7d80f7f04f6">
+
+
+
+<BR><BR><BR><BR>
 
 
 # DATA DEFINITION LANGUAGE (DDL)
