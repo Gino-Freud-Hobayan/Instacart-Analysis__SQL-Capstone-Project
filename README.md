@@ -38,6 +38,20 @@ Repository of all the major projects I made during the 2 week SQL Bootcamp by [D
 
 <br> <br><br> 
 
+## Awards and Certificate of Completion:
+
+<img width="460" alt="image" src="https://github.com/Gino-Freud-Hobayan/Instacart-Analysis__SQL-Capstone-Project/assets/117270964/dbd28661-d0c3-49f1-95bc-42dd8c0cc425">
+
+<br>
+
+<img width="420" alt="image" src="https://github.com/Gino-Freud-Hobayan/Instacart-Analysis__SQL-Capstone-Project/assets/117270964/1b36196a-9ea3-4319-926c-51b9c8d7ce78">
+<img width="420" alt="image" src="https://github.com/Gino-Freud-Hobayan/Instacart-Analysis__SQL-Capstone-Project/assets/117270964/2f61a366-2923-4e04-9535-872d38b65eb5">
+
+
+
+
+<br> <br><br> 
+
 ## (ERD) Entity Relationship Diagram 
 <img width="810" alt="ERD - Instacart DATABASE" src="https://github.com/Gino-Freud-Hobayan/Instacart-Analysis__SQL-Capstone-Project/assets/117270964/47f9b05d-ed9c-4fd0-a39c-dac380dbaae8">
 
