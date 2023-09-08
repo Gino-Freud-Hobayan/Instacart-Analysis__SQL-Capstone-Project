@@ -27,7 +27,7 @@ Repository of all the major projects I made during the 2 week SQL Bootcamp by [D
 
 <BR><BR><BR>
 
-## 📊 Tableau link for the Dashboard: [Instacart dataset analysis Dashboard](https://public.tableau.com/views/InstacartdatasetanalysisbyGINOFREUDD_HOBAYAN/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link)
+## 📊 Tableau link for the Dashboard: [Instacart dataset analysis Dashboard](https://public.tableau.com/app/profile/gino.freud.hobayan/viz/InstacartdatasetanalysisbyGINOFREUDD_HOBAYAN/Dashboard1)
 
 
 <img width="850" alt="Instacart - Tableau Viz" src="https://github.com/Gino-Freud-Hobayan/Instacart-Analysis__SQL-Capstone-Project/assets/117270964/15f017e5-873b-4585-be58-58050d3af045">
