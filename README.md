@@ -10,14 +10,14 @@ Repository of all the major projects I made during the 2 week SQL Bootcamp by [D
 
 <br>
 
-### 1.) Aggregate functions and Ad Hoc Analysis on covid19_italy dataset
+1.) Aggregate functions and Ad Hoc Analysis on covid19_italy dataset
 
-### 2.) Assignment # 2 - More Ad Hoc Analysis on covid19_italy dataset
+2.) Assignment # 2 - More Ad Hoc Analysis on covid19_italy dataset
 
-### 3.) Capstone Project: Analyzing the Instacart dataset using Microsoft SQL
+3.) Capstone Project: Analyzing the Instacart dataset using Microsoft SQL
 
 
-<br><br><br><br>
+<br><br><br>
 
 
 ## 📊 SQL Capstone Project: [10-minute Presentation on YouTube](https://youtu.be/DYzXV9tT7Ys?si=LA3mt1gthwDurzIW)
