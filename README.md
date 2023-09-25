@@ -6,7 +6,7 @@
 
 Repository of all the major projects I made during the 2 week SQL Bootcamp by [Data Vanguard](https://datavanguard.ph/)
 
-(Scroll down for the Capstone Project)
+(Scroll down for the Capstone Project ⬇️⬇️)
 
 <br>
 
