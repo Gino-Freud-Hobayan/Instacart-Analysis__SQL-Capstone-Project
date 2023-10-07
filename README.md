@@ -1,10 +1,10 @@
-## SQL Projects from the Bootcamp 
+# Instacart Dataset Analysis
 
-### By: Gino Freud D. Hobayan
+<img width="749" alt="Instacart banner" src="https://github.com/Gino-Freud-Hobayan/Instacart-Analysis__SQL-Capstone-Project/assets/117270964/756041f9-b96a-43ce-bf4e-cdf87ac47cca">
 
-<br>
+<br><br>
 
-Repository of all the major projects I made during the 2 week SQL Bootcamp by [Data Vanguard](https://datavanguard.ph/)
+This also serves as the Repository of all the major projects I made during the 2 week SQL Bootcamp by [Data Vanguard](https://datavanguard.ph/)
 
 (Scroll down for the Capstone Project ⬇️⬇️)
 
