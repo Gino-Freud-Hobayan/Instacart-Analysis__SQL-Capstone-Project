@@ -4,10 +4,13 @@
 
 <br><br>
 
+
+### (Scroll down for the Instacart Capstone Project ⬇️⬇️)
+
+<br>
+
 This also serves as the Repository of all the major projects I made <br>
 during the 2 week SQL Bootcamp by [Data Vanguard](https://datavanguard.ph/)
-
-(Scroll down for the Capstone Project ⬇️⬇️)
 
 <br>
 
