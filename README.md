@@ -24,7 +24,7 @@ during the 2 week SQL Bootcamp by [Data Vanguard](https://datavanguard.ph/)
 <br><br><br>
 
 
-## 📊 SQL Capstone Project: [10-minute Presentation on YouTube](https://youtu.be/DYzXV9tT7Ys?si=LA3mt1gthwDurzIW)
+## 📊 SQL Capstone Project: [10-minute Presentation on YouTube](https://youtu.be/5TJ5p7ZGM2U)
 
 
 <img width="850" alt="SQL Capstone Proj - Title card w my face" src="https://github.com/Gino-Freud-Hobayan/Instacart-Analysis__SQL-Capstone-Project/assets/117270964/d3349432-89fe-4384-8e2a-9912310a7d98">
